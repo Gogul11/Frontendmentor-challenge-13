@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+
+body{
+  background-color: hsl(226, 43%, 10%);
+}
+
+#dash-board{
+  display: flex;
+  flex-direction: column;
+}
+#inner{
+  display: flex;
+  flex-direction: column;
+}
+
+@media(min-width:400px){
+  #dash-board{
+    flex-direction: row;
+    gap: 10px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #inner{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+}

@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+#userMain{
+    height: 220px;
+    width: 380px;
+    border-radius: 20px;
+    background-color: hsl(235, 46%, 20%);
+}
+
+#userDetails{
+    height: 65%;
+    width: 100%;
+    border-radius: 20px;
+    background-color: hsl(246, 80%, 60%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+#coloum{
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#cols{
+    font-size: 1.2rem;
+    margin-top: 25px;
+    color: hsl(235, 45%, 61%);
+    font-weight: 300;
+}
+
+#cols:hover{
+    cursor: pointer;
+    color:white;
+}
+
+#cols:focus{
+    color: white;
+}
+
+#userimg{
+    height: 70px;
+    width: 70px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+#report{
+    color: hsl(236, 100%, 87%);
+    opacity: 0.8;
+    display: inline-block;
+    font-weight: 300;
+}
+#Uname{
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 300;
+    opacity: 0.8
+    ;
+}
+
+@media(min-width : 400px){
+    #userMain{
+        height: 620px;
+        width: 300px;
+    }
+    #userDetails{
+        padding-left: 20px;
+        height: 70%;
+        flex-direction: column;
+        align-items: start;
+        gap: 50px;
+    }
+    #coloum{
+        height: 30%;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0px 0px 30px 30px;
+    }
+    #Uname{
+        font-size: 2.7rem;
+    }
+    #userimg{
+        height: 100px;
+        width: 100px;
+    }
+}
