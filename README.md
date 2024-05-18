@@ -17,7 +17,7 @@ Mobile View :
 ![Screenshot 2024-05-16 182458](https://github.com/Gogul11/Frontendmentor-challenge-13/assets/148183352/e9e98cfa-92bc-4f9f-b0b4-561137604b4e)
 
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://gogul11.github.io/Frontendmentor-challenge-13/
 
 
 Bulid with :
